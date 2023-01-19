@@ -22,7 +22,7 @@ function calculate() {
    
         const rate = data.rates[currency_two];
 
-        rateEl.innerText = `1 ${currency_one} = ${rate} ${currencyEL_two}`;
+        rateEl.innerText = `1 ${currency_one} = ${rate} ${currency_two}`;
 
         amountEL_two.value = (amountEL_one.value * rate).toFixed(2);
     });
